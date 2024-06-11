@@ -1,0 +1,100 @@
+
+    body{
+        font-family: "Playfair Display", serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+    }
+    .left{
+        display: inline-block;
+        color:white;
+       /* border: 2px solid red;*/
+        position: absolute;
+        left:34px;
+        top:20px;
+    }
+    .left img{
+        width: 100px;
+        height:50px;
+        filter:invert(100%);
+    }
+    .left div{
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 51%;
+        margin: 20px auto;
+        color:white;
+       /* border: 2px solid green;*/
+        text-align: center;
+    }
+    .right{
+        position: absolute;
+        right:34px;
+        top:33px;
+        display: inline-block;
+        color:white;
+       /* border: 2px solid yellow;*/
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        
+        text-decoration: underline;
+        color: grey;
+        
+    }
+    .btn{
+        font-family: "Playfair Display", serif;
+        background-color: black;
+        margin:0px 9px ;
+        color:white;
+        padding:4px,20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        border:2px solid white;
+        color:white;
+        margin: 106px 80px;
+        padding: 75px;
+        width:33%;
+        border-radius: 20px;
+        float:right;
+    }
+    .form-group input{
+        font-family: "Playfair Display", serif;
+        text-align: center;
+        display: block;
+        width: 450px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+        font-size:25px;
+    }
+    .container button{
+        display: block;
+        width:23%;
+        margin: 20px auto;
+    }
